@@ -1,0 +1,21 @@
+# Influencer Agreements Checklist
+
+- [ ] Identify target influencers
+- [ ] Prepare outreach email template
+- [ ] Define campaign objectives and KPIs
+- [ ] Create influencer brief (product details, key messages, dos and don'ts)
+- [ ] Determine compensation structure (flat fee, commission, product gifting)
+- [ ] Draft agreement template including:
+  - [ ] Scope of work
+  - [ ] Content requirements (number of posts, platforms, etc.)
+  - [ ] Usage rights
+  - [ ] Exclusivity clauses (if any)
+  - [ ] FTC disclosure requirements
+  - [ ] Payment terms
+  - [ ] Cancellation policy
+- [ ] Review and approval process for influencer content
+- [ ] Reporting requirements
+- [ ] Confidentiality clause
+- [ ] Termination conditions
+- [ ] Legal review of agreement template
+- [ ] Tracking system for influencer performance
