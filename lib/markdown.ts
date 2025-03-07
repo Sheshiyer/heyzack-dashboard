@@ -37,10 +37,10 @@ export function getCategoryDisplayName(category: string): string {
 }
 
 // These functions should be used server-side only
-export function getDocumentBySlug(category: string, slug: string) {
+export function getDocumentBySlug() {
   throw new Error('getDocumentBySlug should only be used server-side');
 }
 
-export function getAllDocuments(category: string) {
+export function getAllDocuments() {
   throw new Error('getAllDocuments should only be used server-side');
 }

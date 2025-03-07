@@ -2,7 +2,7 @@
 
 import DashboardLayout from "@/components/DashboardLayout";
 import Link from "next/link";
-import { getAllCategories } from "@/lib/markdown";
+import Image from "next/image";
 import { useState } from "react";
 
 // Icons
@@ -287,10 +287,12 @@ export default function Home() {
               </div>
               <div className="md:w-1/3">
                 <div className="bg-heyzack-black p-4 rounded-lg border border-heyzack-light-gray">
-                  <img 
+                  <Image 
                     src="/file.svg" 
                     alt="HeyZack Logo" 
                     className="w-full h-auto rounded"
+                    width={200}
+                    height={200}
                   />
                 </div>
               </div>

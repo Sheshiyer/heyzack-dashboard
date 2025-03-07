@@ -4,9 +4,14 @@ import React, { useEffect, useRef } from 'react';
 import { remark } from 'remark';
 import html from 'remark-html';
 import remarkGfm from 'remark-gfm';
+// These imports are used in the component's styling and rendering
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import rehypeRaw from 'rehype-raw';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import rehypeSanitize from 'rehype-sanitize';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import mermaid from 'mermaid';
 

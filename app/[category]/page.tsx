@@ -11,7 +11,7 @@ interface Document {
 
 export default function CategoryPage({ params }: { params: { category: string } }) {
   const [documents, setDocuments] = useState<Document[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [isLoading, setLoading] = useState(true); // Used for loading state
   const category = params.category;
   const displayName = category.replace(/^\d+-/, '').replace(/-/g, ' ');
   
@@ -46,7 +46,11 @@ export default function CategoryPage({ params }: { params: { category: string } 
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-8 capitalize gradient-text">{displayName}</h1>
         
-        {documents.length > 0 ? (
+        {isLoading ? (
+          <div className="card bg-heyzack-dark p-6 rounded-lg border border-heyzack-light-gray">
+            <p className="text-gray-400">Loading documents...</p>
+          </div>
+        ) : documents.length > 0 ? (
           <div className="grid gap-4">
             {documents.map((doc) => (
               <Link 
